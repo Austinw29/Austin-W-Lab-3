@@ -27,20 +27,19 @@ y = int(input("Enter the second number"))
 while(True):
 
     if user_input == 'a':
-    add(x,y)
+        add(x,y)
 
     elif user_input == 's':
-    sub(x,y)
+        sub(x,y)
 
     elif user_input == 'm':
-    mult(x,y)
+        mult(x,y)
 
     elif user_input == 'd':
-    divi(x,y)
+        divi(x,y)
 
     elif user_input == 'q':
-    break
-
-    print("YOU GONK!!")
+        break
+print("YOU GONK!!")
 
 
