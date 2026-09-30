@@ -25,25 +25,24 @@ while(True):
     
 
     if user_input == 'a':
-        add(x,y)
         x = int(input("Enter the first number"))
         y = int(input("Enter the second number"))
+        add(x,y)
 
     elif user_input == 's':
-        sub(x,y)
         x = int(input("Enter the first number"))
         y = int(input("Enter the second number"))
+        sub(x,y)
 
     elif user_input == 'm':
-        mult(x,y)
         x = int(input("Enter the first number"))
         y = int(input("Enter the second number"))
+        mult(x,y)
 
     elif user_input == 'd':
-        divi(x,y)
         x = int(input("Enter the first number"))
         y = int(input("Enter the second number"))
-
+        divi(x,y)
     elif user_input == 'q':
         print("goodbye")
         break
